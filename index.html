@@ -1,0 +1,545 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="./images/hero-img.jpg">
+    <title>Wallpaper</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+    <nav class="navbar navbar-expand-lg nav-container" >
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><span id="logo-icon">Wall</span>paper</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse nav-link" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Categories
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Animals</a></li>
+                <li><a class="dropdown-item" href="#">Anime</a></li>
+                <li><a class="dropdown-item" href="#">Building</a></li>
+                <li><a class="dropdown-item" href="#">Cars</a></li>
+                <li><a class="dropdown-item" href="#">Nature</a></li>
+                <li><a class="dropdown-item" href="#">Superheroes</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Upload</a>
+            </li>
+           
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search wallpapers..." aria-label="Search">
+            <button class="btn btn-outline-success search-btn" type="submit">Search</button>
+          </form>
+          
+        </div>
+      </div>
+    </nav>
+
+    <div class="hero-image">
+      <div class="hero-text">
+        <h1 style="font-size:50px; font-weight:200">Welcome to Wallpaper</h1>
+        <p>Stunning HD wallpapers to decorate your desktop & phone</p>
+        <button>Explore</button>
+      </div>
+    </div>
+
+    <div class="container mt-5">
+      <div class="row justify-content-center ">
+        <div class="col-12 text-center">
+          <h1 class="gallery-text">DESKTOP WALLPAPER</h1><hr>
+          
+        </div>
+      </div>
+    </div>
+
+
+    <div class="container">
+
+      <div class="row">
+
+          <div class="col-lg-12">
+
+
+              <ul class="filters text-center">
+                  <li class="active" data-filter="*"><a href="#!">All</a></li>
+                  <li data-filter=".animals"><a href="#!">Animals</a></li>
+                  <li data-filter=".anime"><a href="#!">Anime</a></li>
+                  <li data-filter=".nature"><a href="#!">Nature</a></li>
+                  <li data-filter=".superheroes"><a href="#!">Superheroes</a></li>
+              </ul>
+
+              <div class="projects">
+
+                  <div class="row">
+
+                      <div class="col-lg-4 item animals ">
+                          
+                          <div class="card">
+
+                              <div class="card-head">
+                                  <img src="https://r4.wallpaperflare.com/wallpaper/868/401/90/siberian-husky-animals-dog-nature-wallpaper-927112403d665e5b3ab8e2154068b972.jpg" alt="" class="img-fluid card-img">
+                                
+                                  <div class="card-hover">
+                                      <h2>Lorem, ipsum.</h2>
+                                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, quo repudiandae eaque maiores provident deserunt.</p>
+                                  </div>
+                              </div>
+
+                          </div>
+
+                      </div>
+                      
+                      <div class="col-lg-4 item anime">
+                          
+                          <div class="card">
+
+                              <div class="card-head">
+                                  <img src="https://r4.wallpaperflare.com/wallpaper/545/756/905/anime-anime-girls-mask-simple-background-hd-wallpaper-dcd64ca070d273d1170ad96dca58e534.jpg" alt="" class="img-fluid card-img ">
+                                
+                                  <div class="card-hover">
+                                      <h2>Lorem, ipsum.</h2>
+                                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, quo repudiandae eaque maiores provident deserunt.</p>
+                                  </div>
+                              </div>
+
+                          </div>
+
+                      </div>
+
+
+
+
+                      <div class="col-lg-4 item nature">
+                          
+                          <div class="card">
+
+                              <div class="card-head">
+                                  <img src="https://r4.wallpaperflare.com/wallpaper/764/431/702/river-trees-forest-clouds-wallpaper-d4ba55cd41062d25051044aa61cfaf9c.jpg" alt="" class="img-fluid card-img">
+                                
+                                  <div class="card-hover">
+                                      <h2>Lorem, ipsum.</h2>
+                                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, quo repudiandae eaque maiores provident deserunt.</p>
+                                  </div>
+                              </div>
+
+                          </div>
+
+                      </div>
+                      <div class="col-lg-4 item superheroes">
+                          
+                          <div class="card">
+
+                              <div class="card-head">
+                                  <img src="https://r4.wallpaperflare.com/wallpaper/611/838/413/spiderman-hd-4k-superheroes-wallpaper-742d39da299f54848a44738e4edc3299.jpg" alt="" class="img-fluid card-img">
+                                
+                                  <div class="card-hover">
+                                      <h2>Lorem, ipsum.</h2>
+                                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, quo repudiandae eaque maiores provident deserunt.</p>
+                                  </div>
+                              </div>
+
+                          </div>
+
+                      </div>
+                      <div class="col-lg-4 item html animals">
+                          
+                          <div class="card">
+
+                              <div class="card-head">
+                                  <img src="https://images.unsplash.com/photo-1546182990-dffeafbe841d?q=80&w=2059&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" class="img-fluid card-img">
+                                
+                                  <div class="card-hover">
+                                      <h2>Lorem, ipsum.</h2>
+                                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, quo repudiandae eaque maiores provident deserunt.</p>
+                                  </div>
+                              </div>
+
+                          </div>
+
+                      </div>
+                      <div class="col-lg-4 item html anime" >
+                          
+                          <div class="card">
+
+                              <div class="card-head">
+                                  <img src="https://r4.wallpaperflare.com/wallpaper/682/435/620/naruto-anime-uzumaki-naruto-jiraiya-naruto-shippuuden-hd-wallpaper-68ddd8897342ca7a855388addfc15070.jpg" alt="" class="img-fluid card-img">
+                                
+                                  <div class="card-hover">
+                                      <h2>Lorem, ipsum.</h2>
+                                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, quo repudiandae eaque maiores provident deserunt.</p>
+                                  </div>
+                              </div>
+
+                          </div>
+
+                      </div>
+                      <div class="col-lg-4 item html nature">
+                          
+                          <div class="card">
+
+                              <div class="card-head">
+                                  <img src="https://r4.wallpaperflare.com/wallpaper/919/575/783/nature-landscape-lake-mountains-wallpaper-92f11200bd360e4bfad862557038c922.jpg" alt="" class="img-fluid card-img">
+                                
+                                  <div class="card-hover">
+                                      <h2>Lorem, ipsum.</h2>
+                                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, quo repudiandae eaque maiores provident deserunt.</p>
+                                  </div>
+                              </div>
+
+                          </div>
+
+                      </div>
+                      <div class="col-lg-4 item html anime" >
+                          
+                          <div class="card">
+
+                              <div class="card-head">
+                                  <img src="https://r4.wallpaperflare.com/wallpaper/787/854/424/jujutsu-kaisen-satoru-gojo-anime-boys-anime-girls-hd-wallpaper-3df2754e07d9d2340d85b93157844038.jpg" alt="" class="img-fluid card-img">
+                                
+                                  <div class="card-hover">
+                                      <h2>Lorem, ipsum.</h2>
+                                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, quo repudiandae eaque maiores provident deserunt.</p>
+                                  </div>
+                              </div>
+
+                          </div>
+
+                      </div>
+                      <div class="col-lg-4 item html animals">
+                          
+                          <div class="card">
+
+                              <div class="card-head">
+                                  <img src="https://r4.wallpaperflare.com/wallpaper/101/380/61/cat-animals-bokeh-cute-wallpaper-890018ad612addbb96c788bf6061a65d.jpg" alt="" class="img-fluid card-img">
+                                
+                                  <div class="card-hover">
+                                      <h2>Lorem, ipsum.</h2>
+                                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, quo repudiandae eaque maiores provident deserunt.</p>
+                                  </div>
+                              </div>
+
+                          </div>
+
+                      </div>
+                      <div class="col-lg-4 item html nature">
+                          
+                          <div class="card">
+
+                              <div class="card-head">
+                                  <img src="https://c1.wallpaperflare.com/path/584/896/869/city-natutal-green-cb966c6df3f17f9905747bb9ad2cdcb0.jpg" alt="" class="img-fluid card-img">
+                                
+                                  <div class="card-hover">
+                                      <h2>Lorem, ipsum.</h2>
+                                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, quo repudiandae eaque maiores provident deserunt.</p>
+                                  </div>
+                              </div>
+
+                          </div>
+
+                      </div>
+                      <div class="col-lg-4 item html superheroes">
+                          
+                          <div class="card">
+
+                              <div class="card-head">
+                                  <img src="https://r4.wallpaperflare.com/wallpaper/764/505/66/baby-groot-4k-hd-superheroes-wallpaper-56a4b88b9246d7825647d34a12b4c573.jpg" alt="" class="img-fluid card-img">
+                                
+                                  <div class="card-hover">
+                                      <h2>Lorem, ipsum.</h2>
+                                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, quo repudiandae eaque maiores provident deserunt.</p>
+                                  </div>
+                              </div>
+
+                          </div>
+
+                      </div>
+                      <div class="col-lg-4 item html anime">
+                          
+                          <div class="card">
+
+                              <div class="card-head">
+                                  <img src="https://wallpapercave.com/wp/wp9768610.jpg" alt="" class="img-fluid card-img">
+                                
+                                  <div class="card-hover">
+                                      <h2>Lorem, ipsum.</h2>
+                                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, quo repudiandae eaque maiores provident deserunt.</p>
+                                  </div>
+                              </div>
+
+                          </div>
+
+                      </div>
+                      <div class="col-lg-4 item html nature">
+                          
+                          <div class="card">
+
+                              <div class="card-head">
+                                  <img src="https://wallpapercave.com/wp/wp9024683.jpg" alt="" class="img-fluid card-img">
+                                
+                                  <div class="card-hover">
+                                      <h2>Lorem, ipsum.</h2>
+                                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, quo repudiandae eaque maiores provident deserunt.</p>
+                                  </div>
+                              </div>
+
+                          </div>
+
+                      </div>
+                      <div class="col-lg-4 item html anime">
+                          
+                          <div class="card">
+
+                              <div class="card-head">
+                                  <img src="https://wallpapercave.com/wp/wp4092488.jpg" alt="" class="img-fluid card-img">
+                                
+                                  <div class="card-hover">
+                                      <h2>Lorem, ipsum.</h2>
+                                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, quo repudiandae eaque maiores provident deserunt.</p>
+                                  </div>
+                              </div>
+
+                          </div>
+
+                      </div>
+                      <div class="col-lg-4 item html superheroes">
+                          
+                          <div class="card">
+
+                              <div class="card-head">
+                                  <img src="https://r4.wallpaperflare.com/wallpaper/293/952/22/iron-man-marvel-comics-superhero-the-avengers-wallpaper-c950f83d611a7d1b76d7d84fe04116ed.jpg" alt="" class="img-fluid card-img">
+                                
+                                  <div class="card-hover">
+                                      <h2>Lorem, ipsum.</h2>
+                                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, quo repudiandae eaque maiores provident deserunt.</p>
+                                  </div>
+                              </div>
+
+                          </div>
+
+                      </div>
+                      <div class="col-lg-4 item html animals">
+                          
+                          <div class="card">
+
+                              <div class="card-head">
+                                  <img src="https://wallpapercave.com/wp/wp10504904.jpg" alt="" class="img-fluid card-img">
+                                
+                                  <div class="card-hover">
+                                      <h2>Lorem, ipsum.</h2>
+                                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, quo repudiandae eaque maiores provident deserunt.</p>
+                                  </div>
+                              </div>
+
+                          </div>
+
+                      </div>
+
+
+
+
+
+                      <div class="col-lg-4 item html nature">
+                          
+                          <div class="card">
+
+                              <div class="card-head">
+                                  <img src="https://r4.wallpaperflare.com/wallpaper/20/481/77/landscape-nature-lake-trees-wallpaper-22a172501db6be8bca5872e55098b952.jpg" alt="" class="img-fluid card-img">
+                                
+                                  <div class="card-hover">
+                                      <h2>Lorem, ipsum.</h2>
+                                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, quo repudiandae eaque maiores provident deserunt.</p>
+                                  </div>
+                              </div>
+
+                          </div>
+
+                      </div>
+
+                      <div class="col-lg-4 item html superheroes">
+                          
+                          <div class="card">
+
+                              <div class="card-head">
+                                  <img src="https://r4.wallpaperflare.com/wallpaper/157/659/601/shield-marvel-comic-captain-america-wallpaper-9ccad2ff0fe73578f0866a3df0d5065f.jpg" alt="" class="img-fluid card-img">
+                                
+                                  <div class="card-hover">
+                                      <h2>Lorem, ipsum.</h2>
+                                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, quo repudiandae eaque maiores provident deserunt.</p>
+                                  </div>
+                              </div>
+
+                          </div>
+
+                      </div>
+
+                    
+
+                  </div>
+
+              </div>
+
+          </div>
+
+      </div>
+
+  </div>
+
+
+
+  <div class="container mt-5">
+    <div class="row justify-content-center ">
+      <div class="col-12 text-center">
+        <h1 class="gallery-text">TOP USERS</h1><hr>
+      </div>
+    </div>
+  </div>
+
+  <div class="container mt-5">
+  <div class="container marketing ">
+
+   
+    <div class="row justify-content-center mb-5">
+      <div class="col-lg-3 text-center top-user">
+        <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false">
+          <title>Placeholder</title>
+          <rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect>
+          <image xlink:href="https://c4.wallpaperflare.com/wallpaper/186/380/857/your-name-sky-stars-kimi-no-na-wa-wallpaper-preview.jpg" width="140" height="140" class="imgg" />
+        </svg>
+        <h4 class="fw-normal">asher_ravenlunar650</h4>
+        <p>345 wallpapers</p>
+        <p><a class="btn search-btn" href="#">View details »</a></p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-3 text-center top-user">
+        <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false">
+          <title>Placeholder</title>
+          <rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect>
+          <image xlink:href="https://c4.wallpaperflare.com/wallpaper/186/380/857/your-name-sky-stars-kimi-no-na-wa-wallpaper-preview.jpg" width="140" height="140" class="imgg" />
+        </svg>
+        <h4 class="fw-normal">preppymarshmallow</h4>
+        <p>532 wallpapers</p>
+        <p><a class="btn search-btn" href="#">View details »</a></p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-3 text-center top-user">
+        <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false">
+          <title>Placeholder</title>
+          <rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect>
+          <image xlink:href="https://c4.wallpaperflare.com/wallpaper/186/380/857/your-name-sky-stars-kimi-no-na-wa-wallpaper-preview.jpg" width="140" height="140" class="imgg" />
+        </svg>
+        <h4 class="fw-normal">DreamLOLShara14</h4>
+        <p>9843 wallpapers</p>
+        <p><a class="btn search-btn" href="#">View details »</a></p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-3 text-center top-user">
+        <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false">
+          <title>Placeholder</title>
+          <rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect>
+          <image xlink:href="https://c4.wallpaperflare.com/wallpaper/186/380/857/your-name-sky-stars-kimi-no-na-wa-wallpaper-preview.jpg" width="140" height="140" class="imgg" />
+        </svg>
+        <h4 class="fw-normal">6four</h4>
+        <p>8728 wallpapers</p>
+        <p><a class="btn search-btn" href="#">View details »</a></p>
+      </div>
+    </div>
+    <hr>
+
+    
+  </div>
+</div>
+
+ <div class="container">
+  <footer class="py-5">
+    <div class="row">
+      <div class="col-6 col-md-2 mb-3">
+        <h5>Section</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+        </ul>
+      </div>
+
+      <div class="col-6 col-md-2 mb-3">
+        <h5>Section</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+        </ul>
+      </div>
+
+      <div class="col-6 col-md-2 mb-3">
+        <h5>Section</h5>
+        <ul class="nav flex-column">
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+          <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+        </ul>
+      </div>
+
+      <div class="col-md-5 offset-md-1 mb-3">
+        <form>
+          <h5>Subscribe to our newsletter</h5>
+          <p>Monthly digest of what's new and exciting from us.</p>
+          <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+            <label for="newsletter1" class="visually-hidden">Email address</label>
+            <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+            <button class="btn search-btn" type="button">Subscribe</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+      <p>© 2023 Company, Inc. All rights reserved.</p>
+      <ul class="list-unstyled d-flex">
+        <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
+        <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
+        <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
+      </ul>
+    </div>
+  </footer>
+ </div>
+
+  
+    
+    
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
+
+    <script src="index.js"></script>
+  </body>
+</html>
